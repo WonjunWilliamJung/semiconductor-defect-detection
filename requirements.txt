@@ -1,0 +1,14 @@
+streamlit
+chromadb
+langchain
+langchain-community
+langchain-openai
+langchain-core
+python-dotenv
+openai
+sentence-transformers
+scikit-learn
+numpy
+pandas
+tqdm
+pysqlite3-binary

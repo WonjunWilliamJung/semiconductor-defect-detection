@@ -1,0 +1,8 @@
+FROM llama3.1
+ADAPTER ./converted_model.gguf
+
+SYSTEM """
+You are a Log Analysis Expert.
+Analyze the input log data accurately and suggest a solution.
+"""
+PARAMETER temperature 0.1

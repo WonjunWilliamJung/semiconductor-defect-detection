@@ -1,0 +1,35 @@
+# Environments
+.env
+.env.local
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database and Storage
+# chroma_db/ is NOT ignored because we want to upload the pre-built DB to Streamlit Cloud.
+pending_review.json
+*.parquet
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large Model Weights (exceeds GitHub 100MB limit)
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
