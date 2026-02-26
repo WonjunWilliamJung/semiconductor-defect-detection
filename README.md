@@ -1,4 +1,4 @@
-# Log Analysis with RAG
+# Log Analysis Agent(Chat Bot) with RAG
 
 A robust, AI-powered system log analysis tool utilizing Retrieval-Augmented Generation (RAG). This project is designed to automatically ingest system logs, retrieve relevant historical context, and provide fast, accurate root-cause analysis and actionable solutions using Large Language Models (LLMs).
 
